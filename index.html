@@ -2,50 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  
   <title>Frontend Mentor | Results summary component</title>
 </head>
 <body>
-  <!-- CONTAINER -->
-  <div class="container">
-    <!-- CONTAINER LEFT -->
-    <div class="container-left">
-      <div class="result"><h3>Your Result</h3></div>
-      <div class="circle">
-        <div class="num">76</div>
-        <div class="num2">if 100</div>
-      </div>
-      <div class="great">Great</div>
-      <div class="people">You scored higher than 65% of the people who have taken these tests.</div>
-    </div>
-    <!-- CONTAINER RIGHT -->
-    <div class="container-right">
-      <div class="summary"><h3>Summary</h3></div>
-      <div class="reaction">Reaction 
-        <div class="reaction-num"><span>80</span> / 100</div>
-      </div>
-      <div class="memory">Memory 
-        <div class="memory-num"><span>92</span> / 100</div>
-      </div>
-      <div class="verbal">Verbal 
-        <div class="verbal-num"><span>61</span> / 100</div>
-      </div>
-      <div class="visual">Visual 
-        <div class="visual-num"><span>72</span> / 100</div>
-      </div>
-    </div>
-  </div>
-  <!-- BUTTON -->
-  <div class="button"><button>Continue</button> </div>
-  
-   
+  <main>
+    <section class="result">
+      <div class="container">
+        <h2 class="result-h2">Your Result</h2>
+        <div class="circle">
+          <h2>76</h2>
+          <h3>of 100</h3>
+        </div>
+        <div class="great">
+          <h2> Great</h2>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div> 
 
-<!-- FOOTER -->
-<div class="footer">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      <div class="summary">
+        <h2>Summary</h2>
+        <div class="scores">
+          <div class="reaction score" >
+            <h3>
+              <img src="assets/images/icon-reaction.svg" alt="reaction icon">
+              <span>Reaction</span> 
+            </h3>
+            <p><span>80 </span>/ 100</p>
+          </div>
+          <div class="memory score">
+            <h3>
+              <img src="assets/images/icon-memory.svg" alt="memory icon">
+              Memory
+            </h3>
+            <p><span>92 </span>/ 100</p>
+          </div>
+          <div class="verbal score">
+            <h3>
+              <img src="assets/images/icon-verbal.svg" alt="verbal icon">
+              Verbal
+            </h3>
+            <p><span>61</span>/ 100</p>
+          </div>
+          <div class="visual score">
+            <h3>
+              <img src="assets/images/icon-visual.svg" alt="visual icon">
+              Visual
+            </h3>
+            <p><span>72 </span>/ 100</p>
+          </div>
+        </div>
+        <button class="button" type="button"> Continue</button>
+      </div>
+
+    </section>
+
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/mkamburdev" target="_blank">mkamburdev</a>.
-</div>
+  </div>
 </body>
 </html>
