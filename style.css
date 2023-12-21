@@ -140,6 +140,13 @@ body,
     justify-content: space-evenly;
   }
 
+  .summary .scores .visual h3 {
+    color: hsl(234, 83%, 44%);
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   .summary .scores .visual {
     background-color: hsla(234, 78%, 41%, 0.171);
   }
