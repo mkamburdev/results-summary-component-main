@@ -15,18 +15,6 @@ body,
     height: 720px;
   }
 
-  .attribution {
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-    padding-left: 5px;
-  }
-
   .result {
     width: 700px;
     height: 450px;
@@ -186,7 +174,17 @@ body,
     background-color: hsl(241, 73%, 51%);
   }
 
+  .attribution {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    padding-left: 5px;
+  }
 
   @media screen and (min-width: 375px) and (max-width: 600px){
 
