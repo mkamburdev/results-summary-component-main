@@ -13,9 +13,12 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 - **Bonus**: Use the local JSON data to dynamically populate the content
 
+### Screenshot
+![](assets/images/results-summary-component-main-desktop.png)
+
 
 ### Links
 
-- Solution URL: [URL here](#)
+- Solution URL: [URL here](https://www.frontendmentor.io/solutions/results-summary-component-LBiNY1ZPVy)
 - Live Site URL: [URL here](https://mkamburdev.github.io/results-summary-component-main/)
 
